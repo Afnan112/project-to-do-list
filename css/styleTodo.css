@@ -1,0 +1,94 @@
+:root {
+    --first-color: #001219;
+    --second-color: #005f73;
+    --thired-color: #0a9396;
+    --foutth-color: #94d2bd;
+    --fifth-color: #e9d8a6;
+    --sixth-color: #9b2226;
+    --seventh-color: #ee9b00;
+}
+
+body{
+ font-family: 'Dancing Script', cursive;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-table {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    background-color: #F7A4A4;
+    color: black
+}
+
+.tasks-table {
+    background-color: #B6E2A1; 
+    width: 60%;
+    /* height: 500px; */
+    margin-top: 50px;
+}
+
+#but-add {
+    float: right;
+    background-color: #B6E2A1;
+    color: black;
+    border: none;
+    margin-right: 10px;
+}
+
+button.circular {
+ width: 35px;
+ height: 35px;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+ border: none;
+ color: black;
+ line-height: 1;
+}
+
+.bun-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+button .material-symbols-outlined {
+    font-size: 20px;
+}
+
+.calender .material-symbols-outlined {
+ font-size: 20px;
+}
+
+.task {
+    display: flex;
+    background-color: #FFFBC1;
+    padding: 4px;
+    border-bottom: solid 1px #F7A4A4;
+    transition: box-shadow 0.2s;
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    -ms-transition: box-shadow 0.2s;
+    -o-transition: box-shadow 0.2s;
+}
+
+.done {
+    text-decoration:line-through;
+}
+
+.task:hover {
+    box-shadow: 0px 0px 2px #F7A4A4;
+}
+
+#tasks-content {
+    padding: 20px;
+}
